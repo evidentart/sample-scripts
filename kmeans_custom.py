@@ -41,7 +41,7 @@ def kmeans(data, k, max_iters=100, tolerance=1e-4):
 
 # Load your actual data
 # Replace 'your_data.csv' with the path to your dataset
-df = pd.read_csv('C:\\Users\\evide\\Desktop\\hotel.csv')
+df = pd.read_csv('Replace with your file path')
 
 
 # Select only numeric columns for clustering (e.g., 'lead_time', 'adr', 'stays_in_weekend_nights', etc.)
